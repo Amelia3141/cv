@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amelia Ghanea - CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --purple: #6B46C1;
+            --dark-purple: #553C9A;
+            --light-purple: #E9D5FF;
+            --text: #1F2937;
+            --light-gray: #F9FAFB;
+            --border: #E5E7EB;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--text);
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Download Button */
+        .download-section {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background-color: var(--purple);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: var(--dark-purple);
+        }
+
+        /* CV Content */
+        .cv-container {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        h1 {
+            color: var(--purple);
+            font-size: 2.5em;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 0.9em;
+        }
+
+        .contact-info a {
+            color: var(--purple);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Headers */
+        h2 {
+            color: var(--purple);
+            font-size: 1.3em;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid var(--purple);
+        }
+
+        h3 {
+            font-size: 1.1em;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        /* Profile Section */
+        .profile {
+            background-color: var(--light-gray);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        /* Experience and Education */
+        .position-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+        }
+
+        .company {
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .date {
+            color: #6B7280;
+            font-size: 0.9em;
+        }
+
+        /* Lists */
+        ul {
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Skills */
+        .skills-section {
+            margin-top: 10px;
+        }
+
+        .skills-category {
+            margin-bottom: 10px;
+        }
+
+        .skills-category strong {
+            color: var(--purple);
+        }
+
+        /* Links */
+        a {
+            color: var(--purple);
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+            }
+            .download-section {
+                display: none;
+            }
+            .cv-container {
+                border: none;
+                box-shadow: none;
+                padding: 0;
+            }
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .cv-container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .contact-info {
+                font-size: 0.8em;
+            }
+            .contact-info a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="download-section">
+            <a href="Amelia_Ghanea_CV.pdf" class="download-btn" download>
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"></path>
+                </svg>
+                Download PDF
+            </a>
+        </div>
+
+        <div class="cv-container">
+            <h1>Amelia Ghanea</h1>
+            <div class="contact-info">
+                <a href="https://linkedin.com/in/amelia-g">LinkedIn</a> |
+                <a href="https://github.com/Amelia3141">GitHub</a> |
+                <a href="https://amelia3141.github.io">Portfolio</a> |
+                <a href="mailto:amelia.ghanea-hercock.24@ucl.ac.uk">amelia.ghanea-hercock.24@ucl.ac.uk</a> |
+                <span>07341384667</span>
+            </div>
+
+            <div class="profile">
+                <h2>Profile</h2>
+                <p>First Year MPhil/PhD student at UCL Institute of Health Informatics developing machine learning frameworks for rare disease research. First Class Neuroscience BSc Hons from the University of Bristol. Recipient of the 2024 Snowdon Master's Scholarship and member of the Windsor Fellowship. Research interests: mechanistic interpretability, graph neural networks, and computational approaches to understanding complex disease comorbidities.</p>
+            </div>
+
+            <h2>Education</h2>
+            <h3>Health Informatics MPhil/PhD</h3>
+            <div class="position-header">
+                <span class="company">Institute of Health Informatics, University College London</span>
+                <span class="date">05/2025 – Present</span>
+            </div>
+            <ul>
+                <li>Research focus: Machine learning frameworks for understanding complex disease relationships in the EDS-POTS-MCAS triad</li>
+                <li>Current projects: Large-scale web scraping of patient self-report data from StuffThatWorks.com (2.9M members, 110M data points across 1,263 conditions) to create temporal datasets for rare disease ML analysis</li>
+                <li>Developing multi-modal GARNN architecture integrating heterogeneous features (symptoms, treatments, demographics) for disease trajectory prediction</li>
+                <li>Implementing interpretable GARNN variants with attention visualization to identify distinct patient subgroups within the disease triad</li>
+                <li>Exploring causal attention mechanisms in GARNN to distinguish correlation from causation in comorbidity patterns</li>
+                <li>Winner of UCL Faculty of Population Health Sciences AI and Digital Health Hackathon (April 2025) from 20+ teams</li>
+            </ul>
+
+            <h3>Neuroscience BSc: First Class Honours with PLUS Award</h3>
+            <div class="position-header">
+                <span class="company">University of Bristol</span>
+                <span class="date">2021 – 2024</span>
+            </div>
+
+            <h2>Experience</h2>
+            
+            <h3>Research Scientist Intern</h3>
+            <div class="position-header">
+                <span class="company">Advai</span>
+                <span class="date">05/2025 – 07/2025</span>
+            </div>
+            <ul>
+                <li>Led novel research on bias detection in medical LLMs using mechanistic interpretability techniques with Gemma 2B IT model and Sparse Autoencoders (SAEs)</li>
+                <li>Developed innovative "feature clamping" methodology to replicate prompt-level biases through internal model interventions, multiplying specific SAE feature activations by factors (α=5.0-10.0) to simulate demographic presence without prompt modifications</li>
+                <li>Implemented experimental pipeline using TransformerLens hooks on layer 12 residual streams (blocks.12.hook_resid_post) to extract and manipulate 16,384-dimensional SAE features in real-time</li>
+                <li>Designed three-condition experimental framework comparing: (1) demographic-inclusive prompts, (2) demographic-scrubbed prompts, and (3) scrubbed prompts with internally clamped features on DDXPlus medical dataset</li>
+                <li>Achieved measurable bias replication through internal interventions, with clamped features producing diagnosis shifts matching or exceeding prompt-based demographic effects (Jaccard similarity >0.7 between activation patterns)</li>
+                <li>Evaluated bias using demographic parity and equalized odds metrics, demonstrating that internal feature manipulation can amplify demographic biases beyond prompt-level effects</li>
+                <li>Currently preparing research paper for conference submission on mechanistic interpretability approaches to fairness evaluation in clinical AI systems</li>
+            </ul>
+
+            <h3>Freelance Consultant - Strategic AI Systems</h3>
+            <div class="position-header">
+                <span class="date">07/2025 – Present</span>
+            </div>
+            <ul>
+                <li>Developing ML backend for AI-enhanced strategic decision-making platform using historical military case studies</li>
+                <li>Built interactive web dashboard (Vercel deployment) for strategic simulation with parameter weighting and visualization</li>
+                <li>Implementing hybrid AI architecture combining generative AI preprocessing with custom inference models</li>
+                <li>Creating educational interface that processes unstructured historical data to enable users to simulate strategic decisions with contextual analysis and empirically-grounded AI feedback</li>
+            </ul>
+
+            <h3>Technology Optimisation Intern</h3>
+            <div class="position-header">
+                <span class="company">Elsevier - Global Health Markets | Windsor Fellowship</span>
+                <span class="date">06/2024 – 08/2024</span>
+            </div>
+            <ul>
+                <li>Reduced admin-related tasks by 58% by producing first Software Development Lifecycle plan for Elsevier's Health Markets using Confluence and Jira APIs (React & Node.js)</li>
+                <li>Piloted research into quantifying and mitigating racial and gender bias in the Clinical Key AI tool, producing a proof-of-concept custom retrieval-augmented generation system for 1,000,000+ peer-reviewed medical papers</li>
+            </ul>
+
+            <h3>Consultant Computational Neuroscientist</h3>
+            <div class="position-header">
+                <span class="company">Neuro-Bio Ltd</span>
+                <span class="date">05/2023 – 05/2024</span>
+            </div>
+            <ul>
+                <li>Saved £500,000 pa by conducting independent research on 90+ polyclonal antibodies via Western Blot and ELISA, producing specificity database that halved time to reach lead candidates</li>
+                <li>Co-led anti-ageing research group with Unilever, using Python and R for high-throughput compound selection and analysis</li>
+                <li>Improved data analysis accuracy from 71% to 99.98% by developing custom PyTorch workflows combining DeepCAD for denoising and CICADA for automated activity detection, reducing manual analysis time by 85%</li>
+                <li>Led in-silico drug development for novel Alzheimer's therapeutic, utilizing both industry-standard tools (AutoDock Vina, Schrödinger, GROMACS) and AI/ML tools (RoseTTAFold All-Atom, GNNs) for MD simulations</li>
+                <li>Resulted in 40% improvement in binding affinity predictions and 25% better target selectivity using QSAR-optimized structures</li>
+                <li>Produced SOP for in-house ADMET modelling, combining cheminformatics (RDKit, MOE), quantum mechanics (QSite), and deep learning (DeepChem), saving £150k+ on outsourcing and consultancy</li>
+            </ul>
+
+            <h3>Research Assistant</h3>
+            <div class="position-header">
+                <span class="company">Mouthy Ltd</span>
+                <span class="date">06/2022 – 12/2023</span>
+            </div>
+            <ul>
+                <li>Developed integrated clinical and market database for healthcare accessibility analysis, resulting in successful early-stage VC funding</li>
+                <li>Applied data science techniques to analyze dental insurance barriers and healthcare access patterns across socioeconomic demographics</li>
+            </ul>
+
+            <h2>Skills</h2>
+            <div class="skills-section">
+                <div class="skills-category">
+                    <strong>Programming Languages & Frameworks:</strong> Python (Pandas, NumPy, SciPy, PyTorch, Django, scikit-learn), JavaScript (React, Node.js, Full-stack development), R (Statistical analysis, ggplot2, tidyverse), MATLAB, Version Control: Git, GitHub
+                </div>
+                <div class="skills-category">
+                    <strong>Data Science & ML:</strong> Machine Learning: BERT/BioBERT, RAG models, Knowledge Graphs, GNNs, GARNN (Graph Attention RNN), XGBoost, Random Forest; Mechanistic Interpretability: Sparse Autoencoders (SAEs), Gemma Scope, feature clamping techniques; Statistical Analysis: IBM SPSS, Advanced statistical modeling, SMOTE for imbalanced data; Bioinformatics: GSEA, GWAS analysis; Time-series analysis and temporal modeling for disease progression; High-throughput data processing, web scraping (BeautifulSoup, Selenium), and large-scale data collection
+                </div>
+                <div class="skills-category">
+                    <strong>Scientific Computing & Tools:</strong> Molecular Modeling: AutoDock Vina, RoseTTAFold, GNNs; Image Analysis: ImageJ/Fiji; Cheminformatics: RDKit, MOE, QSite
+                </div>
+            </div>
+
+            <h2>Languages</h2>
+            <p>English • Farsi • French • Italian • Turkish</p>
+
+            <h2>Awards</h2>
+            
+            <h3>Full Master's Scholarship</h3>
+            <div class="position-header">
+                <span class="company">Snowdon Trust</span>
+                <span class="date">2024</span>
+            </div>
+            <ul>
+                <li>Scholarship for exceptional students to enable further study in their field of choice and promote inclusivity and change as leaders in their subject area</li>
+                <li>Selected from 572 applicants (top 1.4%)</li>
+                <li>Currently developing disability advocacy initiatives through the Snowdon network and Disability Action Research Kollective</li>
+                <li>Leading research project investigating the link between hypermobility/EDS and neurodiversity, examining current research landscape and building consensus on diagnostic overlaps</li>
+                <li>Snowdon Trust: <a href="https://www.snowdontrust.org.uk/">https://www.snowdontrust.org.uk/</a></li>
+                <li>Disability Action Research Kollective: <a href="https://libcom.org/tags/disability-action-research-kollective">https://libcom.org/tags/disability-action-research-kollective</a></li>
+            </ul>
+
+            <h3>Digital Health AI Hackathon Overall Winner</h3>
+            <div class="position-header">
+                <span class="company">University College London</span>
+                <span class="date">April 2025</span>
+            </div>
+            <ul>
+                <li>Developed ScleroDx: AI-powered diagnostic tool for systemic sclerosis addressing health equity in rare disease diagnosis</li>
+                <li>Implemented GARNN architecture achieving 79% test accuracy on EUSTAR synthetic dataset (13,514 time-series records) with interpretable clinical predictions</li>
+                <li>Live deployment: <a href="https://scleroderma-api.onrender.com/">https://scleroderma-api.onrender.com/</a></li>
+                <li>See GitHub for code and more info: <a href="https://github.com/Amelia3141/Hackathon">github.com/Amelia3141/Hackathon</a></li>
+            </ul>
+
+            <h3>PLUS Award</h3>
+            <div class="position-header">
+                <span class="company">University of Bristol</span>
+                <span class="date">2024</span>
+            </div>
+            <ul>
+                <li>Achieved UoB's employability 'PLUS' award for over 70 hours of work experience, volunteering, internships, workshops, and courses</li>
+            </ul>
+
+            <h3>Student Research Festival, First Place</h3>
+            <div class="position-header">
+                <span class="company">University of Bristol</span>
+                <span class="date">2023</span>
+            </div>
+            <ul>
+                <li>Paper and conference presentation on 'The Neurobiology of Ethical Decision Making' won first place in the Sustainability and Wellbeing Category</li>
+            </ul>
+
+            <h2>Projects</h2>
+            
+            <h3>3rd Year UG Thesis: "Ivabradine and the Risk of Torsades de Pointes: A Case-Based Analysis"</h3>
+            <ul>
+                <li>Achieved a grade of 84 overall and 89 on Viva exam</li>
+                <li>Developed BioBERT-based text mining system for automated pharmacovigilance with custom entity recognition</li>
+                <li>Created open-access web tool for automatic systematic reviews of torsadogenic medication</li>
+                <li>Manuscript in preparation for publication</li>
+                <li>GitHub: <a href="https://github.com/Amelia3141/IvabradineTdP">https://github.com/Amelia3141/IvabradineTdP</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
