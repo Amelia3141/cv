@@ -10,5 +10,5 @@ This repository contains my professional CV/Resume.
 
 ## 📧 Contact
 - Email: amelia.ghanea-hercock.24@ucl.ac.uk
-- LinkedIn: [linkedin.com/in/amelia-g](https://linkedin.com/in/amelia-gh)
+- LinkedIn: [linkedin.com/in/amelia-gh](https://linkedin.com/in/amelia-gh)
 - Portfolio: [amelia3141.github.io](https://amelia3141.github.io)
