@@ -1,0 +1,11 @@
+plugins:
+  - jekyll-optional-front-matter
+
+defaults:
+  - scope:
+      path: "*.pdf"
+    values:
+      sitemap: false
+
+include:
+  - "*.pdf"
